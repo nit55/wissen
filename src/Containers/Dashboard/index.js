@@ -35,8 +35,10 @@ const Dashboard = (props) => {
             alignItems: "center",
           }}
         >
-          <div style={{ flex: "30%" }}>Welcome {user}</div>
-          {/* <button onClick={logout}>logout</button> */}
+          <div style={{ flex: "30%" }}>
+            Welcome {user}
+            {console.log(user, "ddd")}
+          </div>
           <Button
             click={logout}
             type="submit"
