@@ -1,0 +1,5 @@
+export const DISPATCH_LOGIN = "DISPATCH_LOGIN";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_ERROR = "LOGIN_ERROR";
+export const RESET_LOGIN_ERROR = "RESET_LOGIN_ERROR";
+export const LOGOUT = "LOGOUT";
